@@ -1,238 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <title>微金所-传智播客</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
 
-<!DOCTYPE HTML>
-<html lang="" >
-    <head>
-        <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Introduction · GitBook</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.2">
-        
-        
-        
-    
-    <link rel="stylesheet" href="gitbook/style.css">
-
-    
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
-                
-            
-        
-
-    
-
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-
-        
-    
-    
-    <meta name="HandheldFriendly" content="true"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
-
-    
-    <link rel="next" href="chapter1.html" />
-    
-    
-
-    </head>
-    <body>
-        
-<div class="book">
-    <div class="book-summary">
-        
-            
-<div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
-</div>
-
-            
-                <nav role="navigation">
-                
-
-
-<ul class="summary">
-    
-    
-
-    
-
-    
-        
-        
-    
-        <li class="chapter active" data-level="1.1" data-path="./">
-            
-                <a href="./">
-            
-                    
-                    Introduction
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2" data-path="chapter1.html">
-            
-                <a href="chapter1.html">
-            
-                    
-                    First Chapter
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-    
-
-    <li class="divider"></li>
-
-    <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
-        </a>
-    </li>
-</ul>
-
-
-                </nav>
-            
-        
-    </div>
-
-    <div class="book-body">
-        
-            <div class="body-inner">
-                
-                    
-
-<div class="book-header" role="navigation">
-    
-
-    <!-- Title -->
-    <h1>
-        <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Introduction</a>
-    </h1>
-</div>
-
-
-
-
-                    <div class="page-wrapper" tabindex="-1" role="main">
-                        <div class="page-inner">
-                            
-<div id="book-search-results">
-    <div class="search-noresults">
-    
-                                <section class="normal markdown-section">
-                                
-                                <h1 id="my-awesome-book">My Awesome Book</h1>
-<p>This file file serves as your book&apos;s preface, a great place to describe your book&apos;s content and ideas.</p>
-
-                                
-                                </section>
-                            
-    </div>
-    <div class="search-results">
-        <div class="has-results">
-            
-            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-            <ul class="search-results-list"></ul>
-            
-        </div>
-        <div class="no-results">
-            
-            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-            
-        </div>
-    </div>
-</div>
-
-                        </div>
-                    </div>
-                
+    <!--顶部通栏-->
+    <header class="wjs_topBar hidden-sm hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="#" class="wjs_appDown">
+                        <span class="wjs_icon wjs_icon_phone"></span>
+                        <span>手机微金所</span>
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                        <img src="images/code.jpg" alt=""/>
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <span class="wjs_icon wjs_icon_tel"></span>
+                    4006-89-4006（服务时间：9:00-21:00）
+                </div>
+                <div class="col-md-2">
+                    <a href="#">常见问题</a>
+                    <a href="#">财富登录</a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="btn btn-danger btn_register">免费注册</a>
+                    <a href="#" class="btn btn-link btn_login">登录</a>
+                </div>
             </div>
-
-            
-                
-                
-                <a href="chapter1.html" class="navigation navigation-next navigation-unique" aria-label="Next page: First Chapter">
-                    <i class="fa fa-angle-right"></i>
+        </div>
+    </header>
+    <!--导航栏-->
+    <nav class="navbar wjs_nav" data-spy="affix" data-offset-top="200">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class="wjs_icon wjs_icon_logo"></span>
+                    <span class="wjs_icon wjs_icon_word"></span>
                 </a>
-                
-            
-        
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">我要投资</a></li>
+                    <li><a href="#">我要借贷</a></li>
+                    <li><a href="#">平台介绍</a></li>
+                    <li><a href="#">新手专区</a></li>
+                    <li><a href="#">最新动态</a></li>
+                    <li><a href="#">微平台</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right hidden-sm">
+                    <li><a href="#">个人中心</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--轮播图-->
+    <div class="wjs_banner">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+
+            </ol>
+            <div class="carousel-inner" role="listbox">
+
+            </div>
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
     </div>
+    <!--信息区块-->
+    <div class="wjs_info hidden-xs">
+        <div class="container">
+            <div class="col-md-4 col-sm-6">
+                <a href="#" class="media">
+                    <div class="media-left">
+                        <span class="wjs_icon wjs_icon_info"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">支付交易保障</h4>
+                        <p>银联支付全称保证支付安全</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#" class="media">
+                    <div class="media-left">
+                        <span class="wjs_icon wjs_icon_info"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">支付交易保障</h4>
+                        <p>银联支付全称保证支付安全</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#" class="media">
+                    <div class="media-left">
+                        <span class="wjs_icon wjs_icon_info"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">支付交易保障</h4>
+                        <p>银联支付全称保证支付安全</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#" class="media">
+                    <div class="media-left">
+                        <span class="wjs_icon wjs_icon_info"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">支付交易保障</h4>
+                        <p>银联支付全称保证支付安全</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#" class="media">
+                    <div class="media-left">
+                        <span class="wjs_icon wjs_icon_info"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">支付交易保障</h4>
+                        <p>银联支付全称保证支付安全</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#" class="media">
+                    <div class="media-left">
+                        <span class="wjs_icon wjs_icon_info"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">支付交易保障</h4>
+                        <p>银联支付全称保证支付安全</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--预约区块-->
+    <div class="wjs_book">
+        <div class="container">
+            <div class="pull-left">
+                <span class="wjs_icon wjs_icon_clock"></span>现在有 273 人在排队，累计预约交易成功 7571 次。 什么是预约投标？ <a href="#" class="wjs_book_link">立即预约</a>
+            </div>
+            <div class="pull-right hidden-xs">
+                <a href="#" class="wjs_book_video">
+                    <span class="wjs_icon wjs_icon_video"></span>微金所企业宣传片
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--产品模块-->
+    <div class="wjs_product">
+        <div class="container">
+            <div class="nav-tabs-parent">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#wjs_product_01"  role="tab" data-toggle="tab">特别推荐</a></li>
+                    <li role="presentation"><a href="#wjs_product_02"  role="tab" data-toggle="tab">微平台</a></li>
+                    <li role="presentation"><a href="#wjs_product_03"  role="tab" data-toggle="tab">微平台</a></li>
+                    <li role="presentation"><a href="#wjs_product_04"  role="tab" data-toggle="tab">微平台</a></li>
+                    <li role="presentation"><a href="#wjs_product_05"  role="tab" data-toggle="tab">微平台</a></li>
+                    <li role="presentation"><a href="#wjs_product_06"  role="tab" data-toggle="tab">微平台</a></li>
+                    <li role="presentation"><a href="#wjs_product_07"  role="tab" data-toggle="tab">微平台</a></li>
+                </ul>
+            </div>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="wjs_product_01">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="#" class="product_box active">
+                            <div class="pro_right">
+                                <p><b>8</b><sub>%</sub></p>
+                                <p>年利率</p>
+                            </div>
+                            <div class="pro_left">
+                                <h3>新手体验标1002期</h3>
+                                <div class="col-xs-6">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="#" class="product_box">
+                            <div class="pro_right">
+                                <div class="tips">
+                                    <span class="green" data-toggle="tooltip" data-placement="top" title="微金所">微</span>
+                                    <span class="red" data-toggle="tooltip" data-placement="top" title="北京市">京</span>
+                                </div>
+                                <p><b>8</b><sub>%</sub></p>
+                                <p>年利率</p>
+                            </div>
+                            <div class="pro_left">
+                                <h3>新手体验标1002期</h3>
+                                <div class="col-xs-6">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="#" class="product_box">
+                            <div class="pro_right">
+                                <p><b>8</b><sub>%</sub></p>
+                                <p>年利率</p>
+                            </div>
+                            <div class="pro_left">
+                                <h3>新手体验标1002期</h3>
+                                <div class="col-xs-6">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="#" class="product_box">
+                            <div class="pro_right">
+                                <p><b>8</b><sub>%</sub></p>
+                                <p>年利率</p>
+                            </div>
+                            <div class="pro_left">
+                                <h3>新手体验标1002期</h3>
+                                <div class="col-xs-6">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p>起投金额(元)</p>
+                                    <p>0.01万</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="wjs_product_02">2</div>
+                <div role="tabpanel" class="tab-pane" id="wjs_product_03">3</div>
+                <div role="tabpanel" class="tab-pane" id="wjs_product_04">4</div>
+                <div role="tabpanel" class="tab-pane" id="wjs_product_05">5</div>
+                <div role="tabpanel" class="tab-pane" id="wjs_product_06">6</div>
+                <div role="tabpanel" class="tab-pane" id="wjs_product_07">7</div>
+            </div>
+        </div>
+    </div>
+    <!--新闻-->
+    <div class="wjs_news">
+        <div class="container">
+            <div class="col-md-2 col-md-offset-2">
+                <h3 class="wjs_news_title">全部新闻</h3>
+            </div>
+            <div class="col-md-1">
+                <div class="wjs_news_line hidden-sm hidden-xs"></div>
+                <!-- Nav tabs -->
+                <ul class="nav wjs_news_tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><span class="wjs_icon wjs_icon_news_01"></span></a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><span class="wjs_icon wjs_icon_news_02"></span></a></li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><span class="wjs_icon wjs_icon_news_03"></span></a></li>
+                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><span class="wjs_icon wjs_icon_news_04"></span></a></li>
+                </ul>
+            </div>
+            <div class="col-md-7">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="home">
+                        <ul class="wjs_news_con">
+                            <li><a href="#">2016-09-22【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="#">2016-09-22【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="#">2016-09-22【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="#">2016-09-22【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="#">2016-09-22【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="#">2016-09-22【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="#">2016-09-22【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="#">2016-09-22【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="profile">2</div>
+                    <div role="tabpanel" class="tab-pane" id="messages">3</div>
+                    <div role="tabpanel" class="tab-pane" id="settings">4</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--合作伙伴-->
+    <footer class="wjs_partner">
+        <div class="container">
+            <h3 class="text-center">合作伙伴</h3>
+            <ul>
+                <li><a href="#"><span class="wjs_icon wjs_icon_partner01"></span></a></li>
+                <li><a href="#"><span class="wjs_icon wjs_icon_partner02"></span></a></li>
+                <li><a href="#"><span class="wjs_icon wjs_icon_partner03"></span></a></li>
+                <li><a href="#"><span class="wjs_icon wjs_icon_partner04"></span></a></li>
+                <li><a href="#"><span class="wjs_icon wjs_icon_partner05"></span></a></li>
+                <li><a href="#"><span class="wjs_icon wjs_icon_partner06"></span></a></li>
+                <li><a href="#"><span class="wjs_icon wjs_icon_partner07"></span></a></li>
+                <li><a href="#"><span class="wjs_icon wjs_icon_partner08"></span></a></li>
+                <li><a href="#"><span class="wjs_icon wjs_icon_partner09"></span></a></li>
+            </ul>
+        </div>
+    </footer>
 
-    <script>
-        var gitbook = gitbook || [];
-        gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"First Chapter","level":"1.2","depth":1,"path":"chapter1.md","ref":"chapter1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2017-05-17T18:23:55.699Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-18T06:28:58.722Z"},"basePath":".","book":{"language":""}});
-        });
-    </script>
-</div>
-
-        
-    <script src="gitbook/gitbook.js"></script>
-    <script src="gitbook/theme.js"></script>
-    
-        
-        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-search/search.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
-        
-    
-
-    </body>
+<script type="text/html" id="point">
+    <% $.each(model,function(index,item){ %>
+        <li data-target="#carousel-example-generic" data-slide-to="<%=index%>" class="<%=index==0?'active':''%>"></li>
+    <% }) %>
+</script>
+<script type="text/html" id="image">
+    <% _.each(model,function(item,index){ %>
+        <div class="item <%=index==0?'active':''%>">
+            <% if(isM){ %>
+            <a class="m_imageBox" href="#"><img src="<%=item.mUrl%>" alt=""/></a>
+            <% }else{ %>
+            <a href="#" class="pc_imageBox" style="background-image: url(<%=item.pcUrl%>);"></a>
+            <% } %>
+        </div>
+    <% }) %>
+</script>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/underscore/underscore-min.js"></script>
+<script src="lib/iscroll/iscroll.js"></script>
+<script src="js/index.js"></script>
+</body>
 </html>
-
